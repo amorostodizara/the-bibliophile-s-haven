@@ -74,7 +74,7 @@ const Index = () => {
         <div className="flex items-center justify-between px-4 md:px-8 pt-4">
           <div className="flex items-center gap-2 text-xs">
             {isApiConnected ? (
-              <span className="flex items-center gap-1 text-green-600">
+              <span className="flex items-center gap-1 text-primary">
                 <Wifi className="h-3 w-3" /> API connectée
               </span>
             ) : (
